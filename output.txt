@@ -1,0 +1,20 @@
+OUTPUT FROM TERMINAL:
+
+PS C:\Users\haris\OneDrive\Desktop\intern_proj> python resumetest1.py
+Starting the script...
+Checking file path...
+File found: C:\Users\haris\OneDrive\Desktop\intern_proj\HarishaS_Resume_1.pdf
+Reading PDF...
+PDF content extracted successfully.
+Extracting phone numbers and emails...
+Found phone numbers: ['9445827966']
+Found emails: ['harishasivakumar001@gmail.com']
+Connecting to database...
+Database connected successfully.
+Inserting data into database...
+Executing SQL: INSERT INTO resumetest (phonenumber, email) VALUES (%s, %s) with values ('9445827966', 'harishasivakumar001@gmail.com')
+Inserted 1 record.
+Database connection closed.
+Script completed.
+
+
